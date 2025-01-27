@@ -25,7 +25,7 @@ edad <- c(50, 25, 30, 18, 45, 25, 36, 17, 45, 24,
 edad
 mean(edad)
 var(edad)
-sd(edad)
+
 
 edad * 2
 edad * c(2,3)
