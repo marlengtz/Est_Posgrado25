@@ -1,6 +1,7 @@
 #Marlen Gutierrez Barrientos
 #05/02/2025
-#Laboratorio 1
+#Estadística en la investigación científica
+#Laboratorio 1 
 
 
 # Parte 1 R y RStudio -----------------------------------------------------
