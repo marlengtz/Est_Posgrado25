@@ -67,7 +67,7 @@ t.test(vivero$IE ~ vivero$Tratamiento, paired = T) #se utiliza cuando las muestr
 # Pruebas de t de una muestra ---------------------------------------------
 
 t.test(vivero$IE, mu = 0.85)
-mean(vivero$IE)
+mean(vivero$IE) 
 
 getwd() #Para saber en que directorio estas trabajando 
 
