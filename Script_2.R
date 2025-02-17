@@ -34,5 +34,40 @@ boxplot(vivero$IE ~ vivero$Tratamiento, col = "indianred",
         ylab = "IE") #se pone el simbolo de la ñ (~) para hacer dos graficas en
 #funcion una de la otra
 
+boxplot(vivero$IE ~ vivero$Tratamiento)
+
+# Revisar normalidad de los datos -----------------------------------------
+
+shapiro.test(vivero$IE)
+
+
+# Revisar homogeneidad de varianzas ---------------------------------------
+
+ctrl <- subset(vivero$IE, vivero$Tratamiento == "Ctrl") 
+fert <- subset(vivero$IE, vivero$Tratamiento != "Ctrl")
+var(ctrl)
+var(fert)
+
+bartlett.test(vivero$IE ~ vivero$Tratamiento)#Se utiliza para saber si hay 
+#diferencias 
+
+
+# Prueba de t de muestras independientes ----------------------------------
+
+t.test(vivero$IE ~ vivero$Tratamiento, var.equal = T) #especificar que las varianzas son iguales
+
+t.test(vivero$IE ~ vivero$Tratamiento) #cuando no especificas las varianzas se interpreta que son diferentes
+
+
+# Prueba de t de muestras dependientes ------------------------------------
+
+t.test(vivero$IE ~ vivero$Tratamiento, paired = T) #se utiliza cuando las muestras son dependientes
+
+
+# Pruebas de t de una muestra ---------------------------------------------
+
+t.test(vivero$IE, mu = 0.85)
+mean(vivero$IE)
+
 getwd() #Para saber en que directorio estas trabajando 
 
