@@ -7,4 +7,4 @@ Contenido del curso (8 semanas 20/01 - 10/03/2025):
 - :zap: Semana 2: Clonación del repositorio y creación del primer proyecto en Rstudio
 - :octopus: Semana 3: Importar datos a R proveniente de diferentes fuentes
 - :dart: Semana 4: Revisar normalidad, homogenidad y pruebas de t de los datos
-- :zap: Semana 5: 
+- :zap: Semana 5: Prueba de Anova
