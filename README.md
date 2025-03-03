@@ -8,3 +8,4 @@ Contenido del curso (8 semanas 20/01 - 10/03/2025):
 - :octopus: Semana 3: Importar datos a R proveniente de diferentes fuentes
 - :dart: Semana 4: Revisar normalidad, homogenidad y pruebas de t de los datos
 - :zap: Semana 5: Prueba de Anova
+- :octopus: Semana 6: Prueba de t con una cola
