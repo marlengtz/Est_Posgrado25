@@ -1,5 +1,6 @@
 # Est_Posgrado25
 Estadística de la investigación científica
+#Direccion del repositorio: 
 
 Contenido del curso (8 semanas 20/01 - 10/03/2025):
 
