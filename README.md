@@ -11,3 +11,4 @@ Contenido del curso (8 semanas 20/01 - 10/03/2025):
 - :octopus: Semana 6: Prueba de t con una cola y Pruebas de correlaciones 
 - :dart: Semana 7: Regresión lineal
 
+![login](https://github.com/marlengtz/Est_Posgrado25/blob/main/Imagenes%20de%20contribucion%20al%20repositorio/Commits%20over%20time.png?raw=true)
