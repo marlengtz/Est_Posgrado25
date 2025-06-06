@@ -1,7 +1,8 @@
 # Est_Posgrado25
 Estadística de la investigación científica
+#### M.C. Marlen Gutierrez Barrientos
 
-### Direccion del repositorio: https://github.com/marlengtz/Est_Posgrado25
+#### Dirección del repositorio: https://github.com/marlengtz/Est_Posgrado25
 
 Contenido del curso (8 semanas 20/01 - 10/03/2025):
 
